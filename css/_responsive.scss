@@ -1,0 +1,307 @@
+@media (max-width:992px){
+    header{
+     display: none;
+    }
+   
+}
+@media (max-width:992px){
+    .res-header{
+       display: block;
+       background-color: #242424;
+       border-bottom: 1px solid #2D2D2D;
+      
+        
+        .all-res{
+            padding: 8px 0;
+            margin: 0;
+            .left-res{
+                margin: 0;
+                padding: 0;
+                i{
+                    font-size: 23px;
+                    color: rgb(145, 139, 139);
+                    transition: .5s ease-in-out;
+
+            &:hover{
+                color: #A8741E;
+
+            }
+                }
+              
+                .header-burger{
+                    
+                    background-color: green;
+                    z-index: 1;
+                    height: 0;
+                    opacity: 0.5;
+                   visibility: hidden;
+                   border: 1px solid #242424;
+                    background-color: #242424;
+                    // position: absolute;
+                    // top: 100%;
+                    transition: .4s;
+                    width: 0%;
+                    &.burger-active{
+
+                        text-align: center;
+                        visibility: visible;
+                        opacity: 1;
+                        height: auto;
+                        width: 330px;
+                        // opacity: 0.4;
+                        top: 3rem;
+                    }
+                    ul{
+                        flex-direction: column;
+                        li{
+                            border-bottom: 1px solid #2d2d2d;
+                            padding: 10px 10px;
+                            &:hover{
+                                transition: .4s ease-in-out;
+                                
+                                background-color: #A8741E !important;
+                            }
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                 text-transform: uppercase;
+                                
+                            }
+                            
+                                input{
+                                    background-color: #2d2d2d;
+                                    border: none;
+                                    width: 250px;
+                                    height: 45px;
+                                    border-radius: 2rem;
+                                    &::placeholder{
+                                        text-align: center;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                    }
+                                }
+                                i{
+                                    color: white;
+                                    font-size: 20px;
+                                }
+                           
+                        }
+                    }
+                }
+            }
+            .center-res{
+                i{
+                    color: rgb(145, 139, 139);
+
+                    font-size: 29px;
+                    margin-left: 6px;
+                }
+                p{
+                    color: #fff;
+                    margin-left: 5px;   
+                    font-size: 12px;
+                }
+            }
+            .right-res{
+                i{
+                    color: rgb(145, 139, 139);
+                    
+                    font-size: 23px;
+                    margin-left: 5px;
+                    transition: .5s ease-in-out;
+
+
+            &:hover{
+                color: #A8741E;
+
+            }
+                }
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .play-call-logo{
+        text-align: center;
+        .call{
+            display: none !important ;
+        }
+        .logo{
+            text-align: center;
+        }
+        .search-icon{
+            input{
+                width: 190px;
+                &::placeholder{
+                    text-align: left;
+                   
+                }
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .menu{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .slider{
+        display: none;
+            .mySlider{
+                img{
+                    width: 100%;
+                }
+                .slider-text{
+                    p{
+                        font-size: 10px;
+                        color: #A8741E;
+                    }
+                    h1{
+                        font-size: 7px;
+                    }
+                }
+            }
+
+        }
+}
+@media (max-width:992px){
+    .catalog{
+       .play-catalog{
+           .catalog-all{
+               .sale{
+                   img{
+                   display: none;
+                }
+               }
+           }
+       }
+    }
+}
+@media (max-width:992px){
+    .all-Product{
+        .pro-text{
+            display: none !important;
+        }
+    }
+}
+@media (max-width:992px){
+    .trend-mehsullar{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .birkart{
+        .bir{
+            text-align: center;
+            img{
+                width: 70%;
+            }
+        }
+        .bir-text{
+            h1{
+            font-size: 20px;
+
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .about{
+        text-align: center;
+        .about-txt1{
+            .about-icon{
+                padding: 10px 10px;
+            }
+            border-bottom: 1px solid #2d2d2d;
+        }
+        .about-menu{
+            padding: 10px 10px;
+            border-bottom: 1px solid #2D2D2D;
+        }
+    }
+    .about-basliq{
+        display: none;
+
+    }.about-product{
+        display: none !important;
+    
+
+    }
+}
+@media (max-width:765px){
+    .user{
+        #login-box{
+           width: 420px;
+            .left{
+                .right-res{
+                    display: block;
+                    span{
+                        color: white;
+                        font-size: 19px;
+                    }
+                }
+            }
+            .or{
+                display: none   ;
+            }
+            .right{
+               display: none;
+            }
+        }
+    }
+}
+@media (max-width:765px){
+    .mehsullar{
+       .basliq{
+           .mehsul-sec{
+            .mehsul-right{
+                flex-wrap: wrap;
+                padding: 10px 10px;
+                .custom-select{
+                margin: 5px;
+                    width: 300px;
+                }
+            }
+            .axtar{
+                margin-left: 15px;
+                a{
+                    &:hover{
+                        background-color: #A8741E;
+                    }
+                }
+            }
+           }
+       }
+       
+    }
+}
+@media (max-width:765px){
+    .myCarousel{
+        .caruselll{
+            .carusel-text{
+                h3{
+                    padding-top: 20px;
+                }
+            }
+        }
+        .dt-card{
+            .color-selecet{
+                span{
+                    margin-left: 5rem;
+                    
+                    }
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .myCarousel{
+        .carousel-left{
+            img{
+               width:100% ;
+               height: auto;
+               object-fit: cover;
+            }
+        }
+    }
+}
